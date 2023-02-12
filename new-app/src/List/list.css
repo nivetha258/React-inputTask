@@ -1,0 +1,13 @@
+.tasklist{
+    display: flex;
+ 
+}
+.task{
+    border: solid 1px gray;
+    width:16%;
+    padding:10px;
+}
+.main{  
+    margin:5px 0;
+    border: solid 1px gray;
+     background-color:blanchedalmond;}

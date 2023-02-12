@@ -1,0 +1,19 @@
+form{
+    background-color: antiquewhite;
+    border:solid 1px black;
+    padding: 10px;
+}
+.row{
+     display: flex;
+    align-items: center;
+}
+p.labels{
+    display: inline-block;
+    width:120px;
+    font-weight: 600;
+    
+}
+p.error{
+    color:red;
+    display: inline-block;
+}
