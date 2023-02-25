@@ -1,0 +1,24 @@
+
+$lightGray : #4f4f51;
+$lightOrange :#f58f7c;
+
+@mixin error{
+    font-size: 14px;
+    color: red;
+}
+@mixin header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   // box-shadow: 0 0 2px 2px rgb(86, 172, 243);
+   background-color:$lightGray;
+    h2{
+        color:$lightOrange
+    }
+    a{
+        text-decoration: none;
+        color:$lightOrange;
+        font-weight: 700;
+    }
+
+}

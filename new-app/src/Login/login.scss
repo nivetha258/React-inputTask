@@ -1,0 +1,35 @@
+@import "../Asset/variables.scss";
+
+.login-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+ // background-color: rgba(98, 199, 203, 0.438);
+ background-color:#d6d6d6;
+  .login-section {
+    margin-top: -100px;
+    background-color: #f2c4ce;
+    border: solid 2px gray;
+    border-radius:5px ;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+ 
+  }
+  .input {
+    padding: 10px 0;
+  }
+  label {
+    display: inline-block;
+    width: 90px;
+  }
+  h2 {
+    color: blue;
+  }
+  p {
+    @include error;
+    display: inline-block;
+  }
+}

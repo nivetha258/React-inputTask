@@ -1,0 +1,7 @@
+@import "../Asset/variables.scss";
+.header{
+    @include header
+}
+.main{
+    background-color: #d6d6d6;
+}
